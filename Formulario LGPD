@@ -1,1 +1,58 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+
+        input{
+            background-color:  rgb(165, 231, 231);
+        }
+        
+    </style>
+
+
+</head>
+<body>
+
+    <h1 style="text-align: center;">Tela de login</h1>
+    <p style="text-align: center;" >Informe seus dados a seguir.</p>
+    
+    <fieldset>
+        <legend>Informações do usuário</legend>
+        
+      <p> <input type="text" value="Digite o seu nome"></p>  
+      <p> <input type="text" value="Digite o seu cpf"></p>
+      <p> <input type="text" value="Informe seu endereço"></p> 
+      <p> <input type="text" value="Sua data de nascimento"></p>
+      <p> <input type="email" value="Digite seu e-mail" > </p>
+       <p>Digite uma senha para acessas os dados da pesquisa posteriormente: <br><input type="text" value="Digite uma senha"> </p> 
+       
+    </fieldset>
+
+    <fieldset>
+        <legend>Pesquisa de satisfação</legend>
+        <p> Esse formulário foi util ?<input type="button" value="Sim"> <input type="button" value="Não"></p> 
+        <p>Qual sua opnião quanto a facilidade desse formulário  <input type="range"></p>
+    </fieldset>
+    
+    <fieldset>
+        <legend>Termos de uso</legend>
+        <p>Eu li e concordo com todos  <a href="termosdeuso.link">termos de uso</a>  do site</p>
+        
+        
+    </fieldset>
+
+    <br>
+    <button type="submit">Gravar respostas
+        
+    </button>
+</body>
+</html>
